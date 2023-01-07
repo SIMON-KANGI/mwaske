@@ -1,0 +1,72 @@
+*{
+    box-sizing:border-box;
+    background-color: pink;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+   text-decoration: none;
+}
+nav{
+    float:right;
+}
+li{
+    list-style-type: none;
+    display:inline;
+    font-weight:bold;
+}
+.btn{
+    border:solid 2px  bisque;
+}
+a.btn:hover{
+    color:rgb(255, 0, 179);
+    transition:0.5s
+}
+.button{
+    text-align:center;
+    font-size:1.5rem;
+    
+}
+.button:hover{
+    color:yellowgreen;
+}
+.text-center{
+    text-align: center;
+    padding-top:100px;
+}
+#services{
+    padding-top:50px;
+}
+a:active{
+    color:greenyellow;
+}
+h2{
+    text-align:center;
+}
+.gallery{
+display:flex;
+float:left;
+margin-top:10px;
+}
+ .gallery img{
+    width:400px;
+    display:flex;
+    margin-left:50px
+    
+}
+.gallery:hover {
+    border: 1px solid #777;
+    box-shadow: #777;
+}
+#services{
+    align-items:center
+  
+   
+}
+#food{
+    padding-top:20px;
+}
+#acc{
+    padding-top: 20px;
+    margin-top:20px;
+}
+#party{
+    padding:20px
+}

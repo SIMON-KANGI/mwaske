@@ -1,0 +1,201 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    background-color: bisque;
+    background-image:-moz-linear-gradient(5,10,5,0.5), url(\images\kempinski.jfif)
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    text-decoration: none;
+
+}
+body{
+    background-image: url('\images\kempinski.jfif');
+}
+.checkbtn img{
+    font-size: 30px;
+    color:white;
+    float:right;
+    line-height:80px;
+    margin-right:40px;
+    cursor:pointer;
+    display:none;
+}
+
+.logo{
+    width:100px;
+    height:100px;
+    color:black;
+}
+.text-center{
+    text-align: center;
+}
+nav{
+    float:right;
+    padding-top:20px;
+}
+nav  ul li a.active{
+    content:'';
+    width:100%;
+    height:2px;
+    background:#f44336;
+    display:inline;
+    margin:auto;
+}
+li{
+    list-style-type: none;
+    display:inline;
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+}
+.btn{
+    border:solid 2px  bisque;
+}
+a.btn:hover{
+    color:rgb(255, 0, 179);
+    transition:0.5s
+}
+ .button{
+   text-align:center;
+   font-size:1.5rem
+}
+button:hover{
+    color:red;
+
+}
+.description{
+   text-align:center;
+   padding-top:10px;
+   font-size:20px;
+   font-weight:bold;
+  
+   
+}
+#About{
+    padding-top:50px
+    
+    }
+   .about{
+        justify-content:center;
+        width:100%;
+        height:50%;
+        padding-left:200px;
+        padding-right:200px;
+        padding-top:100px;
+        
+    }
+    #check{
+        display:none;
+    }
+  
+@media(max-width:700px){
+    .text-center{
+        text-align: center;
+    }
+    .logo{
+        width:50px;
+        height:50px;
+        color:black;
+    }
+    nav{
+       
+        height:50vh;
+        width:200px;
+        top:0;
+        right:0;
+        text-align:left;
+    }
+    ul{
+        position:fixed;
+        transition:all .5s;
+        left:-100%;
+        background:grey;
+        width:30%;
+        height:100vh;
+        display:block;
+        top:20px;
+    }
+    li{
+        display:block;
+        margin:30px;
+        background:grey;
+    }
+    nav ul li a{
+        font-size:20px;
+    
+       
+    }
+    .checkbtn img{
+       display:block;
+       width:20px
+        
+    }
+    
+    #check:checked~ul{
+        left:0;
+    }
+    .about{
+        justify-content:center;
+        width:20%;
+        height:100%;
+        padding-left:200px;
+        padding-right:200px;
+        padding-top:10px;
+        
+    }
+}
+#contacts{
+    float:center;
+    padding-top:40px;
+    border:solid 2px red;
+    
+}
+h2{
+    text-align:center;
+    
+}
+.contacts{
+    width:200px;
+    height:100px;
+    
+}
+@media(max-width:400px){
+    .about{
+        justify-content:center;
+        width:20%;
+        height:100%;
+        padding-left:20px;
+        padding-right:20px;
+        padding-top:10px;
+        
+    }
+    nav{
+       
+        height:50vh;
+        width:200px;
+        top:0;
+        right:0;
+        text-align:left;
+    }
+    ul{
+        position:fixed;
+        transition:all .5s;
+        left:-100%;
+        background:grey;
+        width:50%;
+        height:100vh;
+        display:block;
+        top:20px;
+    }
+    .text-center{
+        text-align: center;
+        font-size:1rem;
+    }
+    .description{
+        text-align:center;
+        padding-top:10px;
+        font-size:12px;
+        font-weight:bold;
+       
+        
+     }
+}

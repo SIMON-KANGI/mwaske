@@ -1,0 +1,78 @@
+*{
+    box-sizing:border-box;
+    background-color: rgb(246, 255, 192);
+    font-family: 'Kdam Thmor Pro', sans-serif;
+   text-decoration: none;
+}
+nav{
+    float:right;
+}
+li{
+    list-style-type: none;
+    display:inline;
+    font-weight:bold;
+}
+.btn{
+    border:solid 0;
+}
+a.btn:hover{
+    color:rgb(255, 0, 179);
+    transition:0.5s
+}
+.button{
+    text-align:center;
+    font-size:1.5rem;
+    
+}
+.button:hover{
+    color:yellowgreen;
+}
+.text-center{
+    text-align: center;
+    padding-top:100px;
+}
+#services{
+    padding-top:50px;
+}
+a:active{
+    color:greenyellow;
+}
+.form{
+    position: relative;
+    display:grid;
+    padding:50px,100px,100px,50px;
+    justify-content:center;
+    border: solid 2px;
+    margin-top:20px;
+    margin-bottom:100px;
+    margin-left:500px;
+    margin-right:500px;
+    cursor:pointer;
+    color:white;
+     background-color:rgb(10,10,70);
+}
+label {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    color:black
+}
+.btn-submit{
+    color:red;
+}
+@media(min-wdth:400px){
+    .formposition:relative;
+        display:grid;
+        padding:20px,500px,50px,20px;
+        justify-content:center;
+        border: solid 2px;
+        margin-top:20px;
+        margin-bottom:100px;
+        margin-left:200px;
+        margin-right:200px;
+        cursor:pointer;
+        color:white;
+         background-color:rgb(10,10,70);
+}
