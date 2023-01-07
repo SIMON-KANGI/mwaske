@@ -1,0 +1,169 @@
+*{
+    background-color:aliceblue;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    float:center;
+}
+.icon{
+    justify-content: center;
+    width:50px;
+    float:center;
+}
+h1
+h2
+h3{
+    font-weight:bold;
+    font-family: 'Rubik Spray Paint', cursive;
+}
+#areas{
+    
+    padding-left: 500px;
+    padding-top:20px;
+    border:solid 2px grey;
+    box-shadow: 2px;
+}
+h2{
+    font-size:16px;
+    padding-top:10px;
+}
+.gallery img{
+    width:20px;
+    padding-top:10px;
+}
+.gallery{
+    padding-top:10px;
+    padding-bottom:10px;
+    
+}
+h3{
+    font-size:12px;
+    text-decoration-line: underline;
+    
+}
+h4{
+    font-size:12px;
+}
+.health{
+    border:solid 1px rgb(112, 109, 109);
+    width:150px;
+    height:50px;
+    padding-top:10px;
+    padding-right:10px;
+}
+.health img{
+    width:15px;
+}
+.container{
+ display:flex;
+}
+.Finances{
+    border:solid 1px rgb(112, 109, 109);
+    width:150px;
+    height:50px;
+    padding-top:10px;
+    padding-left:10px;
+    margin-left:10px;
+}
+
+.Finances img{
+    width:15px;
+}
+.academics{
+    margin-left:10px ;
+    border:solid 1px grey;
+    width:150px;
+    padding-top:10px;
+}
+.academics img{
+    width:15px;
+}
+.dev{
+    margin-left:10px ;
+    border:solid 1px grey;
+    width:170px;
+    padding-top:10px;
+}
+.dev img{
+    width:15px;
+}
+.health,
+.academics,
+.Finances,
+.dev:hover{
+    cursor:pointer;
+    width:200px;
+}
+.dev:hover{
+    cursor:pointer;
+    width:200px;
+}
+.academics:hover{
+    cursor:pointer;
+    width:200px;
+}
+.Finances:hover{
+    cursor:pointer;
+    width:200px;
+}
+a h3{
+    padding-top:10px;
+    text-decoration: none;
+}
+a img{
+    width:15px;
+    margin-left:10px
+}
+#goals{
+    padding-top:10px;
+}
+nav{
+    display:flex;
+}
+.one{
+    margin-left:10px ;
+    border:solid 1px grey;
+    width:170px;
+    padding-top:10px;
+}
+.one img{
+    width:15px;
+}
+#quarters{
+    display:inline-flex;
+    padding-top:10px;
+}
+.two{
+    margin-left:10px ;
+    border:solid 1px grey;
+    width:170px;
+    padding-top:10px;
+}
+.two img{
+    width:15px;
+}
+.three{
+    margin-left:10px ;
+    border:solid 1px grey;
+    width:170px;
+    padding-top:10px;
+}
+.three img{
+    width:15px;
+}
+.four{
+    margin-left:10px ;
+    border:solid 1px grey;
+    width:170px;
+    padding-top:10px;
+}
+
+.four img{
+    width:15px;
+}
+.onee{
+    display:block;
+    margin-top:10px;
+}

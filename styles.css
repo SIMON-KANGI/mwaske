@@ -1,0 +1,112 @@
+* {
+    cursor:pointer;
+    font-family: 'Oswald', sans-serif;
+    text-decoration:none;
+    list-style-type:none;
+    box-sizing:border-box;
+  }
+    body {
+      background-color: rgb(215, 225, 228);
+    }
+@media screen and (max-width:100%){
+  body{
+    background-color:aqua;
+
+  }  
+}
+
+
+    h1 {
+      color: black;
+      text-align: center;
+    }
+    
+    p {
+      font-family: verdana;
+      font-size: 20px;
+    }
+    .img-fluid {
+      width:200px;
+      height:250px;
+      transition:1s ease;
+      cursor:pointer;
+    }
+    #movies {
+      display:flex;
+    padding:15px 2px;
+    margin-top:10px;
+    Background-color:rgb(120,120,120);
+    width:
+    }
+    #browse{
+        padding:30px ;
+        margin-top:10px;
+        background-color:rgb(50,50,255);
+
+    }
+    .browse{
+        font-size:1.5rem;
+      color:black;
+      background-color: violet;
+      float:left;
+      display:flex;
+      margin:5px, 5px;
+      border: solid 2px rgba(200,100,100,0.5)
+    }
+    nav{
+       display:flex;
+
+    }
+   nav ul a{
+      float:right;
+      list-style-type:none;
+      overflow:hidden
+      
+      }
+    li {
+        float:left;
+        display:flex;
+        text-decoration:none;
+        font-weight:bold;
+        font-style: normal;
+        font-size: 1.5rem;
+        color:rgb(15,45,75);
+    
+      }
+      li a:hover {
+        background-color: rgb(255, 255,200);
+        color:rgba(98, 0, 255, 0.432);
+
+      }
+      li a.active {
+       background-color: #aa04a2;
+        color: black;
+      }
+     .btn{
+        font-size:1.5rem;
+        color:black;
+        background-color: orangered;
+        float:left;
+        display:flex;
+        margin:5px, 5px;
+        border: solid 2px rgba(200,100,100,0.5)
+     }
+     #check{
+      display:none;
+     }
+      h3{
+      color:white
+     }
+     .genre{
+      font-size:1rem;
+      font-weight:bold;
+        color:black;
+        background-color: white;
+        float:left;
+        display:flex;
+        margin:5px, 5px;
+        border: solid 2px rgba(200,100,100,0.5)
+     }
+     #genre{
+      display:block;
+     }
